@@ -29,7 +29,13 @@ Write a type-annotated function `to_str` that takes a float `n` as argument 
 
 Define and annotate the following variables with the specified values:
 
-  - `a`, an integer with a value of 1
-  - `pi`, a float with a value of 3.14
-  - `i_understand_annotations`, a boolean with a value of True
-  - `school`, a string with a value of “Holberton”
+- `a`, an integer with a value of 1
+- `pi`, a float with a value of 3.14
+- `i_understand_annotations`, a boolean with a value of True
+- `school`, a string with a value of “Holberton”
+
+## 5. Complex types - list of floats
+
+Write a type-annotated function `sum_list` which takes a list `input_list` of
+\
+floats as argument and returns their sum as a float.
