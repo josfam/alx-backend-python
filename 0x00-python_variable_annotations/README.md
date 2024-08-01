@@ -1,6 +1,7 @@
 # 0x00-python_variable_annotations
 
 Practice with python variable and function annotations
+
 ---
 
 ## 0. Basic annotations - add
