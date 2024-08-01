@@ -58,3 +58,9 @@ The first element of the tuple is the string `k`.
 The second element is the square of the int/float `v` and should be
 \
 annotated as a float.
+
+## 8. Complex types - functions
+
+Write a type-annotated function `make_multiplier` that takes a float `multiplier`
+\
+as argument and returns a function that multiplies a float by `multiplier`.
