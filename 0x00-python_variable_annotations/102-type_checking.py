@@ -1,4 +1,8 @@
+#!/usr/bin/env python3
+
 from typing import Tuple, List
+
+"""Using mypy to fix errors in a file, with a zoom array example"""
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
