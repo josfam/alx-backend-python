@@ -73,3 +73,16 @@ Annotate the below function’s parameters and return values with the appropriat
 def element_length(lst):
     return [(i, len(i)) for i in lst]
 ```
+
+## 10. Duck typing - first element of a sequence
+
+Augment the following code with the correct duck-typed annotations:
+
+```py
+# The types of the elements of the input are not know
+def safe_first_element(lst):
+    if lst:
+        return lst[0]
+    else:
+        return None
+```
