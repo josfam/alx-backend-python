@@ -25,11 +25,12 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
         current_delays = delays[:]
         if not len(current_delays):
             delays.append(delay)
-        else:
-            for idx, current_delay in enumerate(current_delays):
-                if delay <= current_delay:
-                    delays.insert(idx, delay)
-                    break
-                if idx == len(current_delays) - 1:
-                    delays.append(delay)
+            continue
+
+        for idx, current_delay in enumerate(current_delays):
+            if delay <= current_delay:
+                delays.insert(idx, delay)
+                break
+            if idx == len(current_delays) - 1:
+                delays.append(delay)
     return delays
