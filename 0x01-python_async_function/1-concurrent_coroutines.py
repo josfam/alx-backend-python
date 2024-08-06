@@ -18,7 +18,7 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     Returns:
         A list, sorted in ascending order, of the time spent delaying
     """
-    delays = []
+    delays: List[float] = []
     for count in range(n):
         delay = await wait_random(max_delay)
 
