@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Asynchronous generator"""
+"""Asynchronous generator the generates a random number between 1 and 10"""
 
 import asyncio
 import random
