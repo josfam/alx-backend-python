@@ -14,7 +14,7 @@ def measure_time(n: int, max_delay: int) -> float:
         max_delay: The maximum time for a pause of the co-routine
 
     Returns:
-        The approximate amount of time taken to run all the co-routines
+        The approximate amount of time taken for each run of co-routines
     """
     start_time = time.perf_counter()
     asyncio.run(wait_n(n, max_delay))  # running the asyncio subroutine
