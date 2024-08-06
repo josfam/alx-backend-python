@@ -2,9 +2,8 @@
 
 """Spawning different co-routines, and sorting their delay times"""
 
-from typing import List
-
 wait_random = __import__('0-basic_async_syntax').wait_random
+from typing import List
 import asyncio
 
 
