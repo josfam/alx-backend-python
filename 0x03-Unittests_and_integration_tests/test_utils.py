@@ -8,7 +8,7 @@ from utils import access_nested_map
 
 
 class TestAccessNestedMap(unittest.TestCase):
-    """Tests whether accessing an element of a nested map works as expected"""
+    """Tests whether access_nested_map works as expected"""
 
     @parameterized.expand(
         [
